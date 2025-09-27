@@ -4,7 +4,7 @@ pipeline {
     stages {   
         stage('Master') { 
             steps { 
-               sh 'echo "This is from master"' 
+               sh 'echo "This is from master...to check "' 
             }
         }
      
