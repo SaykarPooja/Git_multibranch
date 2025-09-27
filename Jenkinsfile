@@ -10,7 +10,7 @@ pipeline {
      
         stage('sprint1') { 
             steps { 
-               sh 'echo "This is from S"'
+               sh 'echo "This is from S just to chcek"'
             }
         }
 
