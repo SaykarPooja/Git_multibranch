@@ -10,7 +10,7 @@ pipeline {
      
         stage('sprint1') { 
             steps { 
-               sh 'echo "This is"'
+               sh 'echo "This is slave to check "'
             }
         }
 
